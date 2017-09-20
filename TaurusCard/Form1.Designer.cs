@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(taurusCardForm));
             this.SuspendLayout();
             // 
             // taurusCardForm
@@ -37,7 +38,8 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::TaurusCard.Properties.Resources.taurusBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(584, 561);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "taurusCardForm";
             this.Text = "Taurus Greeting Card";
             this.Shown += new System.EventHandler(this.taurusCardForm_Shown);
