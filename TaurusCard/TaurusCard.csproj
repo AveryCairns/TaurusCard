@@ -88,5 +88,26 @@
   <ItemGroup>
     <None Include="Resources\favicon.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\66136__theta4__ding30603-spedup.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\394671__mattleschuck__magic-twinkle.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\394671__mattleschuck__magic-twinkle %281%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\266167__plasterbrain__shooting-star-3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\266168__plasterbrain__shooting-star-2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\351810__plasterbrain__shooting-star-4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\220169__gameaudio__spacey-cricket-click.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

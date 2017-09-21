@@ -35,31 +35,53 @@ namespace TaurusCard
         private void Form1_Click(object sender, EventArgs e)
         {
             // Clear screen and set up gramphics
+            BackgroundImage = null;
+            Refresh();
+
             Graphics cardGraphics = this.CreateGraphics();
             SolidBrush starBrush = new SolidBrush(Color.White);
             Pen linePen = new Pen(Color.LightGray, 2);
             cardGraphics.Clear(Color.Black);
 
+            // Set up sound players
+            SoundPlayer dingPlayer = new SoundPlayer(Properties.Resources.ding);
+            SoundPlayer clickPlayer = new SoundPlayer(Properties.Resources.click);
+
             // Stars
             cardGraphics.FillEllipse(starBrush, 209, 62, 18, 18);
-            Thread.Sleep(200);
+            clickPlayer.Play();
+            Thread.Sleep(700);
             cardGraphics.FillEllipse(starBrush, 293, 234, 22, 22);
-            Thread.Sleep(200);
+            dingPlayer.Play();
+            Thread.Sleep(700);
             cardGraphics.FillEllipse(starBrush, 321, 211, 12, 12);
-            Thread.Sleep(200);
+            clickPlayer.Play();
+            Thread.Sleep(700);
             cardGraphics.FillEllipse(starBrush, 461, 353, 13, 13);
-            Thread.Sleep(200);
+            clickPlayer.Play();
+            Thread.Sleep(700);
             cardGraphics.FillEllipse(starBrush, 332, 233, 13, 13);
-            Thread.Sleep(200);
+            clickPlayer.Play();
+            Thread.Sleep(700);
             cardGraphics.FillEllipse(starBrush, 352, 372, 15, 15);
-            Thread.Sleep(200);
+            dingPlayer.Play();
+            Thread.Sleep(700);
             cardGraphics.FillEllipse(starBrush, 325, 225, 13, 13);
-            Thread.Sleep(200);
+            clickPlayer.Play();
+            Thread.Sleep(700);
             cardGraphics.FillEllipse(starBrush, 152, 130, 16, 16);
-            Thread.Sleep(200);
+            clickPlayer.Play();
+            Thread.Sleep(700);
             cardGraphics.FillEllipse(starBrush, 374, 300, 16, 16);
-            Thread.Sleep(200);
+            dingPlayer.Play();
+            Thread.Sleep(700);
             cardGraphics.FillEllipse(starBrush, 329, 262, 13, 13);
+            Thread.Sleep(700);
+            cardGraphics.FillEllipse(starBrush, 336, 253, 12, 12);
+            Thread.Sleep(700);
+            cardGraphics.FillEllipse(starBrush, 409, 456, 20, 20);
+           clickPlayer.Play();
+
         }
         
     }
