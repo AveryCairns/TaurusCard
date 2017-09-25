@@ -89,8 +89,14 @@ namespace TaurusCard
             //Thread.Sleep(1000);
 
             cardGraphics.DrawLine(linePen, 223, 77, 299, 162);
-            cardGraphics.DrawLine(linePen, 307, 170, 325, 216);
-            cardGraphics.DrawLine(linePen, 329, 222, 333, 224);
+            cardGraphics.DrawLine(linePen, 307, 170, 325, 215);
+            cardGraphics.DrawLine(linePen, 329, 222, 331, 226);
+            cardGraphics.DrawLine(linePen, 340, 244, 342, 254);
+            cardGraphics.DrawLine(linePen, 312, 250, 333, 265);
+            cardGraphics.DrawLine(linePen, 165, 141, 297, 241);
+            cardGraphics.DrawLine(linePen, 341, 269, 376, 302);
+            cardGraphics.DrawLine(linePen, 388, 310, 462, 356);
+
         }
 
     }
