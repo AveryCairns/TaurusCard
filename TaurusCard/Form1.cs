@@ -291,6 +291,7 @@ namespace TaurusCard
                     Thread.Sleep(50);
                 }
             }
+            //Paragraph
             textBrush.Color = Color.FromArgb(10, 132, 9, 9);
             cardGraphics.DrawString("Taurus (Latin for 'the Bull') is one of the constellations of the", infoFont, textBrush, 20, 20);
             cardGraphics.DrawString("Zodiac, which means it is crossed by the plane of the ecliptic.", infoFont, textBrush, 20, 50);
