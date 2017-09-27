@@ -26,13 +26,13 @@ namespace TaurusCard
             Graphics cardGraphics = this.CreateGraphics();
             SolidBrush textBrush = new SolidBrush(Color.Brown);
             Font titleFont = new Font("Arial", 28, FontStyle.Bold);
-            Font infoFont = new Font("Calibri", 24, FontStyle.Italic);
+            Font nameFont = new Font("Calibri", 24, FontStyle.Italic);
 
             //title
             cardGraphics.DrawString("Taurus", titleFont, textBrush, 85, 240);
             cardGraphics.DrawString("Greeting", titleFont, textBrush, 95, 280);
             cardGraphics.DrawString("Card", titleFont, textBrush, 110, 320);
-            cardGraphics.DrawString("By: Avery", titleFont, textBrush, 50, 20);
+            cardGraphics.DrawString("By: Avery", nameFont, textBrush, 50, 20);
         }
 
         private void Form1_Click(object sender, EventArgs e)
