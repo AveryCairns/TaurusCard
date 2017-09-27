@@ -26,11 +26,13 @@ namespace TaurusCard
             Graphics cardGraphics = this.CreateGraphics();
             SolidBrush textBrush = new SolidBrush(Color.Brown);
             Font titleFont = new Font("Arial", 28, FontStyle.Bold);
+            Font infoFont = new Font("Calibri", 24, FontStyle.Italic);
 
             //title
             cardGraphics.DrawString("Taurus", titleFont, textBrush, 85, 240);
             cardGraphics.DrawString("Greeting", titleFont, textBrush, 95, 280);
             cardGraphics.DrawString("Card", titleFont, textBrush, 110, 320);
+            cardGraphics.DrawString("By: Avery", titleFont, textBrush, 50, 20);
         }
 
         private void Form1_Click(object sender, EventArgs e)
@@ -300,6 +302,7 @@ namespace TaurusCard
             cardGraphics.DrawString("dating back to at least the Early Bronze Age when it marked the", infoFont, textBrush, 20, 140);
             cardGraphics.DrawString("location of the Sun during the spring equinox.", infoFont, textBrush, 20, 170);
             Thread.Sleep(100);
+
             textBrush.Color = Color.FromArgb(20, 132, 9, 9);
             cardGraphics.DrawString("Taurus (Latin for 'the Bull') is one of the constellations of the", infoFont, textBrush, 20, 20);
             cardGraphics.DrawString("Zodiac, which means it is crossed by the plane of the ecliptic.", infoFont, textBrush, 20, 50);
@@ -308,6 +311,7 @@ namespace TaurusCard
             cardGraphics.DrawString("dating back to at least the Early Bronze Age when it marked the", infoFont, textBrush, 20, 140);
             cardGraphics.DrawString("location of the Sun during the spring equinox.", infoFont, textBrush, 20, 170);
             Thread.Sleep(100);
+
             textBrush.Color = Color.FromArgb(30, 132, 9, 9);
             cardGraphics.DrawString("Taurus (Latin for 'the Bull') is one of the constellations of the", infoFont, textBrush, 20, 20);
             cardGraphics.DrawString("Zodiac, which means it is crossed by the plane of the ecliptic.", infoFont, textBrush, 20, 50);
@@ -316,6 +320,7 @@ namespace TaurusCard
             cardGraphics.DrawString("dating back to at least the Early Bronze Age when it marked the", infoFont, textBrush, 20, 140);
             cardGraphics.DrawString("location of the Sun during the spring equinox.", infoFont, textBrush, 20, 170);
             Thread.Sleep(100);
+
             textBrush.Color = Color.FromArgb(40, 132, 9, 9);
             cardGraphics.DrawString("Taurus (Latin for 'the Bull') is one of the constellations of the", infoFont, textBrush, 20, 20);
             cardGraphics.DrawString("Zodiac, which means it is crossed by the plane of the ecliptic.", infoFont, textBrush, 20, 50);
@@ -324,6 +329,7 @@ namespace TaurusCard
             cardGraphics.DrawString("dating back to at least the Early Bronze Age when it marked the", infoFont, textBrush, 20, 140);
             cardGraphics.DrawString("location of the Sun during the spring equinox.", infoFont, textBrush, 20, 170);
             Thread.Sleep(100);
+
             textBrush.Color = Color.FromArgb(50, 132, 9, 9);
             cardGraphics.DrawString("Taurus (Latin for 'the Bull') is one of the constellations of the", infoFont, textBrush, 20, 20);
             cardGraphics.DrawString("Zodiac, which means it is crossed by the plane of the ecliptic.", infoFont, textBrush, 20, 50);
@@ -332,6 +338,7 @@ namespace TaurusCard
             cardGraphics.DrawString("dating back to at least the Early Bronze Age when it marked the", infoFont, textBrush, 20, 140);
             cardGraphics.DrawString("location of the Sun during the spring equinox.", infoFont, textBrush, 20, 170);
             Thread.Sleep(100);
+
             textBrush.Color = Color.FromArgb(60, 132, 9, 9);
             cardGraphics.DrawString("Taurus (Latin for 'the Bull') is one of the constellations of the", infoFont, textBrush, 20, 20);
             cardGraphics.DrawString("Zodiac, which means it is crossed by the plane of the ecliptic.", infoFont, textBrush, 20, 50);
@@ -340,6 +347,7 @@ namespace TaurusCard
             cardGraphics.DrawString("dating back to at least the Early Bronze Age when it marked the", infoFont, textBrush, 20, 140);
             cardGraphics.DrawString("location of the Sun during the spring equinox.", infoFont, textBrush, 20, 170);
             Thread.Sleep(100);
+
             textBrush.Color = Color.FromArgb(70, 132, 9, 9);
             cardGraphics.DrawString("Taurus (Latin for 'the Bull') is one of the constellations of the", infoFont, textBrush, 20, 20);
             cardGraphics.DrawString("Zodiac, which means it is crossed by the plane of the ecliptic.", infoFont, textBrush, 20, 50);
@@ -348,6 +356,7 @@ namespace TaurusCard
             cardGraphics.DrawString("dating back to at least the Early Bronze Age when it marked the", infoFont, textBrush, 20, 140);
             cardGraphics.DrawString("location of the Sun during the spring equinox.", infoFont, textBrush, 20, 170);
             Thread.Sleep(100);
+
             textBrush.Color = Color.FromArgb(80, 132, 9, 9);
             cardGraphics.DrawString("Taurus (Latin for 'the Bull') is one of the constellations of the", infoFont, textBrush, 20, 20);
             cardGraphics.DrawString("Zodiac, which means it is crossed by the plane of the ecliptic.", infoFont, textBrush, 20, 50);
@@ -356,6 +365,7 @@ namespace TaurusCard
             cardGraphics.DrawString("dating back to at least the Early Bronze Age when it marked the", infoFont, textBrush, 20, 140);
             cardGraphics.DrawString("location of the Sun during the spring equinox.", infoFont, textBrush, 20, 170);
             Thread.Sleep(100);
+
             textBrush.Color = Color.FromArgb(90, 132, 9, 9);
             cardGraphics.DrawString("Taurus (Latin for 'the Bull') is one of the constellations of the", infoFont, textBrush, 20, 20);
             cardGraphics.DrawString("Zodiac, which means it is crossed by the plane of the ecliptic.", infoFont, textBrush, 20, 50);
@@ -364,6 +374,7 @@ namespace TaurusCard
             cardGraphics.DrawString("dating back to at least the Early Bronze Age when it marked the", infoFont, textBrush, 20, 140);
             cardGraphics.DrawString("location of the Sun during the spring equinox.", infoFont, textBrush, 20, 170);
             Thread.Sleep(100);
+
             textBrush.Color = Color.FromArgb(100, 132, 9, 9);
             cardGraphics.DrawString("Taurus (Latin for 'the Bull') is one of the constellations of the", infoFont, textBrush, 20, 20);
             cardGraphics.DrawString("Zodiac, which means it is crossed by the plane of the ecliptic.", infoFont, textBrush, 20, 50);
