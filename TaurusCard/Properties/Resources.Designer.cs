@@ -63,15 +63,6 @@ namespace TaurusCard.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream click {
-            get {
-                return ResourceManager.GetStream("click", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
         internal static System.IO.UnmanagedMemoryStream ding {
             get {
                 return ResourceManager.GetStream("ding", resourceCulture);
@@ -81,27 +72,18 @@ namespace TaurusCard.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream star1 {
+        internal static System.IO.UnmanagedMemoryStream jingle {
             get {
-                return ResourceManager.GetStream("star1", resourceCulture);
+                return ResourceManager.GetStream("jingle", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream star2 {
+        internal static System.IO.UnmanagedMemoryStream star {
             get {
-                return ResourceManager.GetStream("star2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream star3 {
-            get {
-                return ResourceManager.GetStream("star3", resourceCulture);
+                return ResourceManager.GetStream("star", resourceCulture);
             }
         }
         

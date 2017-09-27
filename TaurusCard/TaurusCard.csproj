@@ -109,5 +109,11 @@
   <ItemGroup>
     <None Include="Resources\220169__gameaudio__spacey-cricket-click.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\156447__bustedearlobes__level-up.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\220173__gameaudio__spacey-1up-power-up.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
